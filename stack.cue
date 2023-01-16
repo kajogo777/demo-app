@@ -32,7 +32,7 @@ stack: v1.#Stack & {
 				args: ["-text", "hello world"]
 				resources: requests: {
 					cpu:    "256m"
-					memory: "512M"
+					memory: "1024M"
 				}
 				env: {
 					API_KEY:     apiKey.secrets.apiKey
