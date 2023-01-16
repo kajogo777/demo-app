@@ -3,7 +3,10 @@ package main
 import (
 	"guku.io/devx/v1"
 	"guku.io/devx/v1/traits"
+	"demo.com/v1/platforms"
 )
+
+builders: platforms.Builders
 
 stack: v1.#Stack & {
 	$metadata: stack: "service-a"
