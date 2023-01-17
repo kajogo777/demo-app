@@ -9,7 +9,6 @@ import (
 builders: platforms.Builders
 
 stack: v1.#Stack & {
-	$metadata: stack: "service-a"
 	components: {
 		bucket: {
 			traits.#S3CompatibleBucket
